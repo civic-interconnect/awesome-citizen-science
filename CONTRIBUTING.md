@@ -14,9 +14,11 @@ Before adding an entry, ensure it meets these criteria:
 
 1. Choose the appropriate domain category (Climate & Weather, Ecology & Environment, etc.)
 2. Follow this format:
-   ```
+
+   ```md
    - [**Project Name**](https://example.com/) - Brief description of what participants do and the research impact.
    ```
+   
 3. Add 📱 if the platform is especially mobile-friendly
 4. Keep descriptions concise but informative (1-2 sentences)
 5. Add your entry in alphabetical order within the chosen section

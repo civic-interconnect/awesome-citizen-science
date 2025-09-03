@@ -1,12 +1,12 @@
 # awesome-citizen-science
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Markdown CI](https://github.com/civic-interconnect/awesome-citizen-science/actions/workflows/markdown-ci.yml/badge.svg)](https://github.com/<USER_OR_ORG>/<REPO>/actions/workflows/markdown-ci.yml)
-[![Link Check](https://github.com/civic-interconnect/awesome-citizen-science/actions/workflows/weekly_link_checker.yml/badge.svg)](https://github.com/<USER_OR_ORG>/<REPO>/actions/workflows/weekly_link_checker.yml)
+[![Markdown CI](https://github.com/civic-interconnect/awesome-citizen-science/actions/workflows/markdown-ci.yml/badge.svg)](https://github.com/civic-interconnect/awesome-citizen-science/actions/workflows/markdown-ci.yml)
+[![Link Check](https://github.com/civic-interconnect/awesome-citizen-science/actions/workflows/weekly_link_checker.yml/badge.svg)](https://github.com/civic-interconnect/awesome-citizen-science/actions/workflows/weekly_link_checker.yml)
 
 > A curated list of **high-quality, open, and impactful citizen science platforms, tools, and projects** for educators, students, developers, and anyone seeking meaningful ways to contribute to scientific research.
-
-> Those flagged with 📱offer specially mobile-device friendly ways to contribute.
+>
+> Entries flagged with 📱offer specially mobile-device friendly ways to contribute.
 
 ---
 
@@ -55,7 +55,7 @@
 - [**Galaxy Zoo**](https://www.zooniverse.org/projects/zookeeper/galaxy-zoo/) - Large-scale effort where participants classify galaxy morphologies.  
 
 ### Civic Engagement Tools
-- [**Consul**](https://consulproject.org/en/) - Open-source citizen participation platform used by cities worldwide for participatory budgeting, proposals, and processes.
+- [**Consul**](https://consuldemocracy.org/) - Open-source citizen participation platform used by cities worldwide for participatory budgeting, proposals, and processes.
 - [**Decidim**](https://decidim.org/) - Open-source platform for participatory government enabling communities to organize consultations, debates, and collaborative decision-making.
 - [**Discourse for Civic Tech**](https://www.discourse.org/) - Discussion platform used by civic organizations for transparent community decision-making and policy development.
 - [**Your Priorities**](https://citizens.is/) - Open-source platform for crowdsourcing policy ideas and enabling structured civic dialogue and priority-setting.
@@ -81,7 +81,7 @@
 ### Disaster Response
 - [**Crisis Mappers Network**](https://crisismappers.net/) - Global community using crowdsourced data and digital technologies for humanitarian response and disaster risk reduction.
 - [**Firewise Communities**](https://www.nfpa.org/Public-Education/Fire-causes-and-risks/Wildfire/Firewise-USA) - Community-based wildfire risk reduction program where residents assess and improve local fire safety through collaborative data collection.
-- [**iNaturalist Fire Effects**](https://www.inaturalist.org/projects/fire-effects-monitoring) - Citizen science project documenting vegetation recovery and wildlife adaptation following wildfires.
+- [**iNaturalist Fire Ecology**](https://www.inaturalist.org/projects/fire-ecology-before-after-burn-observations) - Citizen science project documenting vegetation recovery and wildlife adaptation following wildfires.
 - [**OpenStreetMap Humanitarian**](https://www.hotosm.org/) - Coordinated mapping response providing critical geographic data during humanitarian crises and disasters.
 - [**Ushahidi**](https://www.ushahidi.com/) - Open-source platform for crowdsourced crisis reporting and real-time disaster response coordination.
 - 📱 [**Watch Duty**](https://www.watchduty.org/) - Nonprofit wildfire tracking platform powered by 200+ volunteers who monitor radio scanners, cameras, and satellite data to provide real-time fire alerts and user-submitted photos.
@@ -91,7 +91,7 @@
 - [**Folding@home**](https://foldingathome.org) - Distributed computing project using volunteered processing power to simulate protein dynamics in disease research.  
 
 ### Ecology & Environment
-- 📱 [**eBird**](https://ebird.org) - Global database built from bird sightings reported by participants.  
+- 📱 [**eBird**](https://ebird.org/home) - Global database built from bird sightings reported by participants.  
 - [**Floating Forests**](https://www.zooniverse.org/projects/zooniverse/floating-forests) - Project where participants identify giant kelp in satellite imagery.  
 - [**Globe at Night**](https://www.globeatnight.org) - Worldwide campaign collecting night-sky brightness reports to track light pollution.  
 - 📱 [**iNaturalist**](https://www.inaturalist.org) - Community platform where individuals document plants and animals to build a shared biodiversity record.  
@@ -114,7 +114,7 @@
 - [**U.S. National Park Service: Citizen Science**](https://www.nps.gov/subjects/archeology/citizen-science.htm) - Volunteers help NPS archeologists collect data for managing archeological resources.
 
 ### Linguistics & Language
-- [**Pronunciation Dictionary**](https://pronunciationdictionary.org/) - Community-driven platform where native speakers contribute audio pronunciations for words across multiple languages.
+- [**Forvo Pronunciation Dictionary**](https://forvo.com/) - Community-driven platform where native speakers contribute audio pronunciations for words across multiple languages.
 - [**Wikitongues**](https://wikitongues.org/) - Global initiative documenting linguistic diversity through crowdsourced video recordings of speakers from endangered and minority language communities.
 
 ### Psychology & Social Sciences
@@ -142,20 +142,19 @@
 
 ## Platforms & Portals
 
-- [**Zooniverse**](https://www.zooniverse.org) - The _largest and most popular citizen science platform_, hosting dozens of projects across disciplines from ecology to astronomy.  
+- ⭐ [**Zooniverse**](https://www.zooniverse.org) - The *largest and most popular citizen science platform*, hosting dozens of projects across disciplines from ecology to astronomy.  
 - [**CitizenScience.gov**](https://www.citizenscience.gov) - U.S. government citizen science and crowdsourcing initiative.  
 - [**CitSci.org**](https://www.citsci.org) - Platform for data collection, visualization, and review with real-time results.  
 - [**Pybossa**](https://pybossa.com/) - Open-source crowdsourcing framework for building citizen science projects ([repo](https://github.com/Scifabric/pybossa) last updated in 2022).  
-- [**SciStarter**](https://scistarter.org) - A hub for thousands of citizen science projects across the globe.  
+- [**SciStarter**](https://scistarter.org/) - A hub for thousands of citizen science projects across the globe.  
 
 ---
 
 ## Project Builders & Tools
 
-- [**Citizen Science Project Builder**](https://csprojectbuilder.eu/) - Supports creation and management of citizen science projects, from data entry to visualization.  
 - [**Epicollect**](https://five.epicollect.net/) - Mobile platform for collecting and managing field data.  
 - [**FieldKit**](https://www.fieldkit.org/) - Modular open-source environmental monitoring hardware and software.  
-- [**Wikimedia Tools (e.g., Wikibase)**](https://www.wikidata.org/wiki/Wikibase) - Framework for collaborative data collection and annotation.  
+- [**Wikimedia Tools (e.g., Wikibase)**](https://www.wikidata.org/wiki/Wikidata:Wikibase) - Framework for collaborative data collection and annotation.  
 
 ---
 
@@ -164,7 +163,7 @@
 - [**Citizen Science Global Directory**](https://www.citizenscienceglobal.org/) - International catalog of projects and networks.  
 - [**Digital Tools for Citizen Science**](https://github.com/dylanrees/citizen-science) - Curated list of software, portals, and resources supporting community-driven science.  
 - [**SciStarter**](https://scistarter.org) - Platform listing thousands of active global citizen science projects.  
-- [**SciStarter Project Directory**](https://scistarter.org/projects) - Searchable index of projects hosted on SciStarter.  
+- [**SciStarter Project Finder**](https://scistarter.org/finder) – Searchable directory of citizen science projects.  
 
 ---
 

@@ -13,3 +13,7 @@ MD033: false
 
 # Require first line to be a heading (awesome list convention)
 MD041: true
+
+# Allow asterisk-style emphasis (instead of enforcing underscores)
+MD049:
+  style: asterisk

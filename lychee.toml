@@ -1,0 +1,25 @@
+#############################  Display  #############################
+# Log level: "error" | "warn" | "info" | "debug" | "trace"
+verbose = "info"
+# Hide the progress bar in CI
+no_progress = true
+
+#############################  Runtime  #############################
+max_concurrency = 6
+max_retries = 3
+retry_wait_time = 8
+timeout = 30
+
+#############################  Requests  ############################
+user_agent = "awesome-citizen-science link checker"
+# Status codes accepted as OK (strings recommended)
+accept = ["200", "206", "301", "302", "403", "429", "503"]
+
+#############################  Exclusions  ##########################
+# Regex patterns (TOML strings) — escape dots
+exclude = [
+  "example\\.com",
+  "localhost",
+  "127\\.0\\.0\\.1",
+  "\\.local"
+]

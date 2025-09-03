@@ -71,7 +71,6 @@
 - [**GLOBE Program**](https://www.globe.gov/) - Worldwide science and education program connecting students and scientists in environmental monitoring.
 - [**ISeeChange**](https://www.iseechange.org/) - Community platform documenting local environmental and climate changes through citizen observations and photographs.
 - 📱 [**mPING**](https://mping.nssl.noaa.gov/) - NOAA mobile precipitation identification system where users report ground truth weather conditions to improve radar precipitation estimates.
-- 📱 [**NASA GLOBE Clouds**](https://www.globe.gov/web/cloudspotter/) - Citizen science project where participants photograph and classify clouds to help validate NASA satellite observations.
 - [**Project BudBurst**](https://budburst.org/) - National phenology network where volunteers track seasonal life cycle events in plants and animals to study climate change impacts.
 
 ### Digital Humanities

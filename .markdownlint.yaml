@@ -1,0 +1,15 @@
+# Enable all default rules first
+default: true
+
+# Disable line-length rule (mdformat will handle wrapping)
+MD013: false
+
+# Only flag duplicate headings if they are siblings
+MD024:
+  siblings_only: true
+
+# Allow inline HTML (for badges, tables, etc.)
+MD033: false
+
+# Require first line to be a heading (awesome list convention)
+MD041: true

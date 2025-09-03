@@ -1,0 +1,108 @@
+name: Check Links
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # Mondays 06:00 UTC
+  workflow_dispatch:
+  pull_request:
+    paths: ["**/*.md"]
+
+concurrency:
+  group: link-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Check links in markdown files
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >
+            --no-progress
+            --verbose
+            --accept 200,206,301,302,403,429,503
+            --timeout 30
+            --max-concurrency 6
+            --retry-wait-time 8
+            --retries 3
+            --exclude-mail
+            --exclude "example.com"
+            --exclude "localhost"
+            --exclude "127.0.0.1"
+            --exclude "*.local"
+            --user-agent "awesome-citizen-science link checker"
+            **/*.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Comment on PR if links broken
+        if: failure() && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const comment = `## Link Check Results
+            
+            Some links in your contribution appear to be broken or unreachable.
+            
+            **Next steps:**
+            1. Check the [workflow logs](${context.payload.repository.html_url}/actions/runs/${context.runId}) for details
+            2. Verify the URLs are correct and accessible
+            3. If a site is temporarily down, you can re-run this check later
+            
+            **Common causes:**
+            - Typos in URLs
+            - Websites temporarily offline
+            - Sites blocking automated checkers
+            
+            Don't worry - this is just to help ensure all links work for users!`;
+            
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });
+
+      - name: Create issue for scheduled check failures
+        if: failure() && github.event_name == 'schedule'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = `Weekly Link Check Failed - ${new Date().toISOString().split('T')[0]}`;
+            const body = `
+            ## ERROR: Broken Links Detected
+            
+            Our weekly link validation found some broken or unreachable links.
+            
+            **Review needed:**
+            - [Check workflow details](${context.payload.repository.html_url}/actions/runs/${context.runId})
+            - Update any permanently broken links
+            - Consider if any sites have moved or changed URLs
+            
+            **Date:** ${new Date().toLocaleDateString()}
+            
+            ---
+            *Automated weekly maintenance check*
+            `;
+            
+            // Check if similar issue already exists
+            const existingIssues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: 'broken-links',
+              state: 'open'
+            });
+            
+            if (existingIssues.data.length === 0) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['maintenance', 'broken-links']
+              });
+            }

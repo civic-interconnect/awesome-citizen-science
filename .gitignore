@@ -1,0 +1,44 @@
+# This .gitignore file lists content that does NOT need to be tracked in the project history
+
+# ----------------------------------------
+# macOS / Windows system files
+# ----------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+
+# ----------------------------------------
+# Editor / IDE configs
+# ----------------------------------------
+.vscode/
+.idea/
+
+# ----------------------------------------
+# Environment variables and secrets (always ignore)
+# ----------------------------------------
+.env
+.env.*
+
+# ----------------------------------------
+# Python (sometimes used for utilities)
+# ----------------------------------------
+.venv/
+env/
+__pycache__/
+.cache/
+*.pyc
+*.pyo
+*.pyd
+
+# ----------------------------------------
+# Node leftovers (sometimes used for utilities)
+# ----------------------------------------
+node_modules/
+
+# ----------------------------------------
+# Backup / generated files
+# ----------------------------------------
+*.bak
+*.log

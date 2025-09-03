@@ -91,7 +91,7 @@
 - [**Folding@home**](https://foldingathome.org) - Distributed computing project using volunteered processing power to simulate protein dynamics in disease research.  
 
 ### Ecology & Environment
-- 📱 [**eBird**](https://ebird.org/home) - Global database built from bird sightings reported by participants.  
+- 📱 [**eBird**](https://ebird.org/about) - Global database built from bird sightings reported by participants.  
 - [**Floating Forests**](https://www.zooniverse.org/projects/zooniverse/floating-forests) - Project where participants identify giant kelp in satellite imagery.  
 - [**Globe at Night**](https://www.globeatnight.org) - Worldwide campaign collecting night-sky brightness reports to track light pollution.  
 - 📱 [**iNaturalist**](https://www.inaturalist.org) - Community platform where individuals document plants and animals to build a shared biodiversity record.  

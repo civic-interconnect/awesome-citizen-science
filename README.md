@@ -168,7 +168,7 @@
 
 ## Academic & Analytical Tools
 
-- [**Citizen Science Association**](https://citizenscience.org/) - Professional network supporting research and practice in citizen science.  
+- [**Association for Advancing Participatory Sciences**](https://participatorysciences.org/) - Professional network supporting research and practice in citizen science.  
 - [**Open Science Framework**](https://osf.io/) - Platform for managing and sharing scientific projects and data.  
 - [**SATCHEL Pipeline**](https://arxiv.org/abs/2203.09458) - Open-source tool translating citizen science classification data into statistically robust analysis.  
 

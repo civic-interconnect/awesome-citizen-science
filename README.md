@@ -105,8 +105,11 @@
 - [**Foldit**](https://fold.it/portal/info/science) - Interactive protein-folding game where player-devised strategies inform biomedical research.  
 
 ### Health & Medical
-- [**Stall Catchers**](https://stallcatchers.com/) - Online game where participants analyze blood vessel movies to advance Alzheimer's research.
+- [**Longevity World Cup**](https://longevityworldcup.com/) - Open healthspan
+  competition where participants contribute biological-age and crowd-age data
+  to public longevity leaderboards.
 - [**Malaria Atlas Project**](https://malariaatlas.org/) - Global mapping initiative tracking malaria distribution and burden.
+- [**Stall Catchers**](https://stallcatchers.com/) - Online game where participants analyze blood vessel movies to advance Alzheimer's research.
 
 ### Heritage & Preservation
 - [**Smithsonian Digital Volunteers: Transcription Center**](https://transcription.si.edu/) - Platform where volunteers transcribe historical documents, field notes, and cultural artifacts from Smithsonian collections.

@@ -153,6 +153,7 @@
 
 - [**Epicollect**](https://five.epicollect.net/) - Mobile platform for collecting and managing field data.  
 - [**FieldKit**](https://www.fieldkit.org/) - Modular open-source environmental monitoring hardware and software.  
+- [**Mapsurvey**](https://mapsurvey.org/) - Open-source platform for map-based surveys where participants pin locations, draw routes, and outline areas; exports GeoJSON and CSV for analysis.  
 - [**Wikimedia Tools (e.g., Wikibase)**](https://www.wikidata.org/wiki/Wikidata:Wikibase) - Framework for collaborative data collection and annotation.  
 
 ---

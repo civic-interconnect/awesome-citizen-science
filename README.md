@@ -206,6 +206,7 @@
 - [**Awesome (Main Page)**](https://github.com/sindresorhus/awesome) - The original and central list of “awesome” lists, linking to hundreds of topic-specific lists.  
 - [**Citizen Science (Wikipedia)**](https://en.wikipedia.org/wiki/Citizen_science) - Background, history, and global context.  
 - [**Citizen Science Toolkit**](https://www.citizenscience.gov/toolkit/) - U.S. government resource offering guidance for building citizen science projects.  
+- [**KoreAves — South Korea Bird Evidence Atlas**](https://koreaves.com/gis/) - Free, source-linked reference for inspecting public bird occurrence evidence across South Korea's 17 regions; explains why missing records are not confirmed absence. This is a data-literacy resource, not an observation submission platform.
 - [**UBC Citizen Science Tools**](https://ubc-library-rc.github.io/citizen-science-tools/content/citizen-science-tools.html) - Academic overview of tools and platforms used in citizen science.  
 
 ---
